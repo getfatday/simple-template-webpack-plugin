@@ -1,0 +1,3032 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.9.4",
+  "hash": "5812357c36c4a55309c3",
+  "time": 6479,
+  "publicPath": "\/",
+  "assetsByChunkName": {
+    "foo-input": [
+      "foo-input.bundle.js",
+      "foo-input.bundle.js.map"
+    ],
+    "foo-view-search": [
+      "foo-view-search.bundle.js",
+      "foo-view-search.bundle.css",
+      "foo-view-search.bundle.js.map",
+      "foo-view-search.bundle.css.map"
+    ],
+    "common": [
+      "common.bundle.js",
+      "common.bundle.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "common.bundle.js",
+      "size": 1355,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "80a3c6c6f90175f2356b9487b9439342.eot",
+      "size": 20408,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "eba44403244abc110f2839c65af27185.ttf",
+      "size": 20256,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "7492c289a4e0e033d91392f0615d39f9.svg",
+      "size": 67051,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "foo-input.bundle.js",
+      "size": 775171,
+      "chunks": [
+        0,
+        2
+      ],
+      "chunkNames": [
+        "foo-input"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "foo-view-search.bundle.js",
+      "size": 824918,
+      "chunks": [
+        1,
+        2
+      ],
+      "chunkNames": [
+        "foo-view-search"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "e8ac5b2b04aaeca9bfd04619b512a114.woff",
+      "size": 11896,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "foo-view-search.bundle.css",
+      "size": 111108,
+      "chunks": [
+        1,
+        2
+      ],
+      "chunkNames": [
+        "foo-view-search"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "foo-input.bundle.js.map",
+      "size": 931136,
+      "chunks": [
+        0,
+        2
+      ],
+      "chunkNames": [
+        "foo-input"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "foo-view-search.bundle.js.map",
+      "size": 997198,
+      "chunks": [
+        1,
+        2
+      ],
+      "chunkNames": [
+        "foo-view-search"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "foo-view-search.bundle.css.map",
+      "size": 178599,
+      "chunks": [
+        1,
+        2
+      ],
+      "chunkNames": [
+        "foo-view-search"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "common.bundle.js.map",
+      "size": 1352,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 403,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 747392,
+      "names": [
+        "foo-input"
+      ],
+      "files": [
+        "foo-input.bundle.js",
+        "foo-input.bundle.js.map"
+      ],
+      "hash": "5dd95567962d82e10b25",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "\/foo\/lib\/foo-input.js",
+          "name": ".\/lib\/foo-input.js",
+          "size": 70,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "module.exports = {};"
+        },
+        {
+          "id": 1,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+          "name": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "size": 1662,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+              "module": ".\/~\/agent99\/lib\/agent99.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99.js",
+              "type": "cjs require",
+              "userRequest": ".\/agent99\/control",
+              "loc": "1:14-42"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 2,
+          "identifier": "\/foo\/lib\/foo-view\/input.js",
+          "name": ".\/lib\/foo-view\/input.js",
+          "size": 633,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-input.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-input.js",
+              "module": ".\/lib\/foo-input.js",
+              "moduleName": ".\/lib\/foo-input.js",
+              "type": "cjs require",
+              "userRequest": ".\/foo-view\/input",
+              "loc": "2:9-47"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 3,
+          "identifier": "\/foo\/node_modules\/webpack\/buildin\/module.js",
+          "name": "(webpack)\/buildin\/module.js",
+          "size": 251,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-97"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "\/foo\/node_modules\/lodash\/index.js",
+              "module": ".\/~\/lodash\/index.js",
+              "moduleName": ".\/~\/lodash\/index.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-97"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 8,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "name": ".\/~\/agent99\/lib\/agent99.js",
+          "size": 572,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "agent99",
+              "loc": "5:14-32"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "\/foo\/lib\/foo-view\/input.js",
+              "module": ".\/lib\/foo-view\/input.js",
+              "moduleName": ".\/lib\/foo-view\/input.js",
+              "type": "cjs require",
+              "userRequest": "agent99",
+              "loc": "1:14-32"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 9,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "name": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "size": 445,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "type": "cjs require",
+              "userRequest": ".\/amd",
+              "loc": "1:15-31"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "type": "cjs require",
+              "userRequest": ".\/amd",
+              "loc": "2:8-24"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+              "module": ".\/~\/agent99\/lib\/agent99.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99.js",
+              "type": "cjs require",
+              "userRequest": ".\/agent99\/amd",
+              "loc": "2:10-34"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 11,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/dom.js",
+          "name": ".\/~\/agent99\/lib\/agent99\/dom.js",
+          "size": 70,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": ".\/dom",
+              "loc": "1:0-16"
+            },
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": ".\/dom",
+              "loc": "2:16-4:33"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 14,
+          "identifier": "\/foo\/node_modules\/lodash\/index.js",
+          "name": ".\/~\/lodash\/index.js",
+          "size": 382935,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "type": "cjs require",
+              "userRequest": "lodash",
+              "loc": "4:8-25"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 15,
+          "identifier": "\/foo\/node_modules\/backbone\/backbone.js",
+          "name": ".\/~\/backbone\/backbone.js",
+          "size": 60997,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": "backbone",
+              "loc": "12:15-34"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 16,
+          "identifier": "\/foo\/node_modules\/jquery\/dist\/jquery.js",
+          "name": ".\/~\/jquery\/dist\/jquery.js",
+          "size": 247387,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": "jquery",
+              "loc": "10:8-25"
+            },
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "\/foo\/node_modules\/backbone\/backbone.js",
+              "module": ".\/~\/backbone\/backbone.js",
+              "moduleName": ".\/~\/backbone\/backbone.js",
+              "type": "amd require",
+              "userRequest": "jquery",
+              "loc": "12:4-16:6"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 17,
+          "identifier": "\/foo\/node_modules\/backbone\/node_modules\/underscore\/underscore.js",
+          "name": ".\/~\/backbone\/~\/underscore\/underscore.js",
+          "size": 52370,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/backbone\/backbone.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "\/foo\/node_modules\/backbone\/backbone.js",
+              "module": ".\/~\/backbone\/backbone.js",
+              "moduleName": ".\/~\/backbone\/backbone.js",
+              "type": "amd require",
+              "userRequest": "underscore",
+              "loc": "12:4-16:6"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "\/foo\/lib\/foo-input.js",
+          "moduleIdentifier": "\/foo\/lib\/foo-input.js",
+          "moduleName": ".\/lib\/foo-input.js",
+          "loc": "",
+          "name": "foo-input",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 795976,
+      "names": [
+        "foo-view-search"
+      ],
+      "files": [
+        "foo-view-search.bundle.js",
+        "foo-view-search.bundle.css",
+        "foo-view-search.bundle.js.map",
+        "foo-view-search.bundle.css.map"
+      ],
+      "hash": "73c40748e7fe90090777",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "\/foo\/lib\/foo-search.js",
+          "name": ".\/lib\/foo-search.js",
+          "size": 516,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 1,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+          "name": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "size": 1662,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+              "module": ".\/~\/agent99\/lib\/agent99.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99.js",
+              "type": "cjs require",
+              "userRequest": ".\/agent99\/control",
+              "loc": "1:14-42"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 3,
+          "identifier": "\/foo\/node_modules\/webpack\/buildin\/module.js",
+          "name": "(webpack)\/buildin\/module.js",
+          "size": 251,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-97"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "\/foo\/node_modules\/lodash\/index.js",
+              "module": ".\/~\/lodash\/index.js",
+              "moduleName": ".\/~\/lodash\/index.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-97"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 4,
+          "identifier": "\/foo\/node_modules\/extract-text-webpack-plugin\/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true,\"id\":1}!\/foo\/node_modules\/style-loader\/index.js!\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "name": ".\/style\/foo-view-search.less",
+          "size": 41,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "..\/style\/foo-view-search.less",
+              "loc": "3:12-63"
+            }
+          ],
+          "source": "\/\/ removed by extract-text-webpack-plugin"
+        },
+        {
+          "id": 5,
+          "identifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/template\/foo-view-search.mustache",
+          "name": ".\/template\/foo-view-search.mustache",
+          "size": 1244,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "..\/template\/foo-view-search.mustache",
+              "loc": "4:15-73"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 6,
+          "identifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/nav-toolbar\/template\/nav-toolbar.mustache",
+          "name": ".\/~\/nav-toolbar\/template\/nav-toolbar.mustache",
+          "size": 4491,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "nav-toolbar\/template\/nav-toolbar.mustache",
+              "loc": "7:10-62"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 7,
+          "identifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/hotel-search-results\/template\/result.mustache",
+          "name": ".\/~\/hotel-search-results\/template\/result.mustache",
+          "size": 20864,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "hotel-search-results\/template\/result.mustache",
+              "loc": "8:12-68"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 8,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "name": ".\/~\/agent99\/lib\/agent99.js",
+          "size": 572,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/lib\/foo-search.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+              "module": ".\/lib\/foo-search.js",
+              "moduleName": ".\/lib\/foo-search.js",
+              "type": "cjs require",
+              "userRequest": "agent99",
+              "loc": "5:14-32"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "\/foo\/lib\/foo-view\/input.js",
+              "module": ".\/lib\/foo-view\/input.js",
+              "moduleName": ".\/lib\/foo-view\/input.js",
+              "type": "cjs require",
+              "userRequest": "agent99",
+              "loc": "1:14-32"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 9,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "name": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "size": 445,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "type": "cjs require",
+              "userRequest": ".\/amd",
+              "loc": "1:15-31"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "type": "cjs require",
+              "userRequest": ".\/amd",
+              "loc": "2:8-24"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+              "module": ".\/~\/agent99\/lib\/agent99.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99.js",
+              "type": "cjs require",
+              "userRequest": ".\/agent99\/amd",
+              "loc": "2:10-34"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 10,
+          "identifier": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+          "name": ".\/~\/hogan.js\/lib\/hogan.js",
+          "size": 810,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/hotel-search-results\/template\/result.mustache",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/template\/foo-view-search.mustache",
+              "module": ".\/template\/foo-view-search.mustache",
+              "moduleName": ".\/template\/foo-view-search.mustache",
+              "type": "cjs require",
+              "userRequest": "hogan.js",
+              "loc": "1:8-27"
+            },
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/nav-toolbar\/template\/nav-toolbar.mustache",
+              "module": ".\/~\/nav-toolbar\/template\/nav-toolbar.mustache",
+              "moduleName": ".\/~\/nav-toolbar\/template\/nav-toolbar.mustache",
+              "type": "cjs require",
+              "userRequest": "hogan.js",
+              "loc": "1:8-27"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/hotel-search-results\/template\/result.mustache",
+              "module": ".\/~\/hotel-search-results\/template\/result.mustache",
+              "moduleName": ".\/~\/hotel-search-results\/template\/result.mustache",
+              "type": "cjs require",
+              "userRequest": "hogan.js",
+              "loc": "1:8-27"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 11,
+          "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/dom.js",
+          "name": ".\/~\/agent99\/lib\/agent99\/dom.js",
+          "size": 70,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": ".\/dom",
+              "loc": "1:0-16"
+            },
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": ".\/dom",
+              "loc": "2:16-4:33"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 12,
+          "identifier": "\/foo\/node_modules\/hogan.js\/lib\/compiler.js",
+          "name": ".\/~\/hogan.js\/lib\/compiler.js",
+          "size": 12052,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+              "module": ".\/~\/hogan.js\/lib\/hogan.js",
+              "moduleName": ".\/~\/hogan.js\/lib\/hogan.js",
+              "type": "cjs require",
+              "userRequest": ".\/compiler",
+              "loc": "18:12-33"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 13,
+          "identifier": "\/foo\/node_modules\/hogan.js\/lib\/template.js",
+          "name": ".\/~\/hogan.js\/lib\/template.js",
+          "size": 9269,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+              "module": ".\/~\/hogan.js\/lib\/hogan.js",
+              "moduleName": ".\/~\/hogan.js\/lib\/hogan.js",
+              "type": "cjs require",
+              "userRequest": ".\/template",
+              "loc": "19:17-38"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 14,
+          "identifier": "\/foo\/node_modules\/lodash\/index.js",
+          "name": ".\/~\/lodash\/index.js",
+          "size": 382935,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+              "type": "cjs require",
+              "userRequest": "lodash",
+              "loc": "4:8-25"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 15,
+          "identifier": "\/foo\/node_modules\/backbone\/backbone.js",
+          "name": ".\/~\/backbone\/backbone.js",
+          "size": 60997,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": "backbone",
+              "loc": "12:15-34"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 16,
+          "identifier": "\/foo\/node_modules\/jquery\/dist\/jquery.js",
+          "name": ".\/~\/jquery\/dist\/jquery.js",
+          "size": 247387,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+              "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+              "type": "cjs require",
+              "userRequest": "jquery",
+              "loc": "10:8-25"
+            },
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "\/foo\/node_modules\/backbone\/backbone.js",
+              "module": ".\/~\/backbone\/backbone.js",
+              "moduleName": ".\/~\/backbone\/backbone.js",
+              "type": "amd require",
+              "userRequest": "jquery",
+              "loc": "12:4-16:6"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 17,
+          "identifier": "\/foo\/node_modules\/backbone\/node_modules\/underscore\/underscore.js",
+          "name": ".\/~\/backbone\/~\/underscore\/underscore.js",
+          "size": 52370,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/backbone\/backbone.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "\/foo\/node_modules\/backbone\/backbone.js",
+              "module": ".\/~\/backbone\/backbone.js",
+              "moduleName": ".\/~\/backbone\/backbone.js",
+              "type": "amd require",
+              "userRequest": "underscore",
+              "loc": "12:4-16:6"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "\/foo\/lib\/foo-search.js",
+          "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+          "moduleName": ".\/lib\/foo-search.js",
+          "loc": "",
+          "name": "foo-view-search",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 0,
+      "names": [
+        "common"
+      ],
+      "files": [
+        "common.bundle.js",
+        "common.bundle.js.map"
+      ],
+      "hash": "43ba800be83617a071ca",
+      "parents": [],
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "\/foo\/lib\/foo-input.js",
+      "name": ".\/lib\/foo-input.js",
+      "size": 70,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 0,
+      "identifier": "\/foo\/lib\/foo-search.js",
+      "name": ".\/lib\/foo-search.js",
+      "size": 516,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 1,
+      "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+      "name": ".\/~\/agent99\/lib\/agent99\/control.js",
+      "size": 1662,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "module": ".\/~\/agent99\/lib\/agent99.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99.js",
+          "type": "cjs require",
+          "userRequest": ".\/agent99\/control",
+          "loc": "1:14-42"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 2,
+      "identifier": "\/foo\/lib\/foo-view\/input.js",
+      "name": ".\/lib\/foo-view\/input.js",
+      "size": 633,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "\/foo\/lib\/foo-input.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "\/foo\/lib\/foo-input.js",
+          "module": ".\/lib\/foo-input.js",
+          "moduleName": ".\/lib\/foo-input.js",
+          "type": "cjs require",
+          "userRequest": ".\/foo-view\/input",
+          "loc": "2:9-47"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 3,
+      "identifier": "\/foo\/node_modules\/webpack\/buildin\/module.js",
+      "name": "(webpack)\/buildin\/module.js",
+      "size": 251,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/lib\/foo-search.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+          "module": ".\/lib\/foo-search.js",
+          "moduleName": ".\/lib\/foo-search.js",
+          "type": "cjs require",
+          "userRequest": "module",
+          "loc": "1:0-97"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "\/foo\/node_modules\/lodash\/index.js",
+          "module": ".\/~\/lodash\/index.js",
+          "moduleName": ".\/~\/lodash\/index.js",
+          "type": "cjs require",
+          "userRequest": "module",
+          "loc": "1:0-97"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 4,
+      "identifier": "\/foo\/node_modules\/extract-text-webpack-plugin\/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true,\"id\":1}!\/foo\/node_modules\/style-loader\/index.js!\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+      "name": ".\/style\/foo-view-search.less",
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/lib\/foo-search.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+          "module": ".\/lib\/foo-search.js",
+          "moduleName": ".\/lib\/foo-search.js",
+          "type": "cjs require",
+          "userRequest": "..\/style\/foo-view-search.less",
+          "loc": "3:12-63"
+        }
+      ],
+      "source": "\/\/ removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": 5,
+      "identifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/template\/foo-view-search.mustache",
+      "name": ".\/template\/foo-view-search.mustache",
+      "size": 1244,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/lib\/foo-search.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+          "module": ".\/lib\/foo-search.js",
+          "moduleName": ".\/lib\/foo-search.js",
+          "type": "cjs require",
+          "userRequest": "..\/template\/foo-view-search.mustache",
+          "loc": "4:15-73"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 6,
+      "identifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/nav-toolbar\/template\/nav-toolbar.mustache",
+      "name": ".\/~\/nav-toolbar\/template\/nav-toolbar.mustache",
+      "size": 4491,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/lib\/foo-search.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+          "module": ".\/lib\/foo-search.js",
+          "moduleName": ".\/lib\/foo-search.js",
+          "type": "cjs require",
+          "userRequest": "nav-toolbar\/template\/nav-toolbar.mustache",
+          "loc": "7:10-62"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 7,
+      "identifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/hotel-search-results\/template\/result.mustache",
+      "name": ".\/~\/hotel-search-results\/template\/result.mustache",
+      "size": 20864,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/lib\/foo-search.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+          "module": ".\/lib\/foo-search.js",
+          "moduleName": ".\/lib\/foo-search.js",
+          "type": "cjs require",
+          "userRequest": "hotel-search-results\/template\/result.mustache",
+          "loc": "8:12-68"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 8,
+      "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+      "name": ".\/~\/agent99\/lib\/agent99.js",
+      "size": 572,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/lib\/foo-search.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "\/foo\/lib\/foo-search.js",
+          "module": ".\/lib\/foo-search.js",
+          "moduleName": ".\/lib\/foo-search.js",
+          "type": "cjs require",
+          "userRequest": "agent99",
+          "loc": "5:14-32"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "\/foo\/lib\/foo-view\/input.js",
+          "module": ".\/lib\/foo-view\/input.js",
+          "moduleName": ".\/lib\/foo-view\/input.js",
+          "type": "cjs require",
+          "userRequest": "agent99",
+          "loc": "1:14-32"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 9,
+      "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+      "name": ".\/~\/agent99\/lib\/agent99\/amd.js",
+      "size": 445,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+          "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "type": "cjs require",
+          "userRequest": ".\/amd",
+          "loc": "1:15-31"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+          "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "type": "cjs require",
+          "userRequest": ".\/amd",
+          "loc": "2:8-24"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99.js",
+          "module": ".\/~\/agent99\/lib\/agent99.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99.js",
+          "type": "cjs require",
+          "userRequest": ".\/agent99\/amd",
+          "loc": "2:10-34"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 10,
+      "identifier": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+      "name": ".\/~\/hogan.js\/lib\/hogan.js",
+      "size": 810,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/hotel-search-results\/template\/result.mustache",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/template\/foo-view-search.mustache",
+          "module": ".\/template\/foo-view-search.mustache",
+          "moduleName": ".\/template\/foo-view-search.mustache",
+          "type": "cjs require",
+          "userRequest": "hogan.js",
+          "loc": "1:8-27"
+        },
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/nav-toolbar\/template\/nav-toolbar.mustache",
+          "module": ".\/~\/nav-toolbar\/template\/nav-toolbar.mustache",
+          "moduleName": ".\/~\/nav-toolbar\/template\/nav-toolbar.mustache",
+          "type": "cjs require",
+          "userRequest": "hogan.js",
+          "loc": "1:8-27"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "\/foo\/node_modules\/mustache-loader\/index.js?noShortcut!\/foo\/node_modules\/hotel-search-results\/template\/result.mustache",
+          "module": ".\/~\/hotel-search-results\/template\/result.mustache",
+          "moduleName": ".\/~\/hotel-search-results\/template\/result.mustache",
+          "type": "cjs require",
+          "userRequest": "hogan.js",
+          "loc": "1:8-27"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 11,
+      "identifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/dom.js",
+      "name": ".\/~\/agent99\/lib\/agent99\/dom.js",
+      "size": 70,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "type": "cjs require",
+          "userRequest": ".\/dom",
+          "loc": "1:0-16"
+        },
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "type": "cjs require",
+          "userRequest": ".\/dom",
+          "loc": "2:16-4:33"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 12,
+      "identifier": "\/foo\/node_modules\/hogan.js\/lib\/compiler.js",
+      "name": ".\/~\/hogan.js\/lib\/compiler.js",
+      "size": 12052,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+          "module": ".\/~\/hogan.js\/lib\/hogan.js",
+          "moduleName": ".\/~\/hogan.js\/lib\/hogan.js",
+          "type": "cjs require",
+          "userRequest": ".\/compiler",
+          "loc": "18:12-33"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 13,
+      "identifier": "\/foo\/node_modules\/hogan.js\/lib\/template.js",
+      "name": ".\/~\/hogan.js\/lib\/template.js",
+      "size": 9269,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "\/foo\/node_modules\/hogan.js\/lib\/hogan.js",
+          "module": ".\/~\/hogan.js\/lib\/hogan.js",
+          "moduleName": ".\/~\/hogan.js\/lib\/hogan.js",
+          "type": "cjs require",
+          "userRequest": ".\/template",
+          "loc": "19:17-38"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 14,
+      "identifier": "\/foo\/node_modules\/lodash\/index.js",
+      "name": ".\/~\/lodash\/index.js",
+      "size": 382935,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/control.js",
+          "module": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99\/control.js",
+          "type": "cjs require",
+          "userRequest": "lodash",
+          "loc": "4:8-25"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 15,
+      "identifier": "\/foo\/node_modules\/backbone\/backbone.js",
+      "name": ".\/~\/backbone\/backbone.js",
+      "size": 60997,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "type": "cjs require",
+          "userRequest": "backbone",
+          "loc": "12:15-34"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 16,
+      "identifier": "\/foo\/node_modules\/jquery\/dist\/jquery.js",
+      "name": ".\/~\/jquery\/dist\/jquery.js",
+      "size": 247387,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "\/foo\/node_modules\/agent99\/lib\/agent99\/amd.js",
+          "module": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "moduleName": ".\/~\/agent99\/lib\/agent99\/amd.js",
+          "type": "cjs require",
+          "userRequest": "jquery",
+          "loc": "10:8-25"
+        },
+        {
+          "moduleId": 15,
+          "moduleIdentifier": "\/foo\/node_modules\/backbone\/backbone.js",
+          "module": ".\/~\/backbone\/backbone.js",
+          "moduleName": ".\/~\/backbone\/backbone.js",
+          "type": "amd require",
+          "userRequest": "jquery",
+          "loc": "12:4-16:6"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    },
+    {
+      "id": 17,
+      "identifier": "\/foo\/node_modules\/backbone\/node_modules\/underscore\/underscore.js",
+      "name": ".\/~\/backbone\/~\/underscore\/underscore.js",
+      "size": 52370,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "\/foo\/node_modules\/backbone\/backbone.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 15,
+          "moduleIdentifier": "\/foo\/node_modules\/backbone\/backbone.js",
+          "module": ".\/~\/backbone\/backbone.js",
+          "moduleName": ".\/~\/backbone\/backbone.js",
+          "type": "amd require",
+          "userRequest": "underscore",
+          "loc": "12:4-16:6"
+        }
+      ],
+      "source": "module.exports = {};\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "\/",
+      "assetsByChunkName": null,
+      "assets": [
+        {
+          "name": "80a3c6c6f90175f2356b9487b9439342.eot",
+          "size": 20408,
+          "chunks": [],
+          "chunkNames": [],
+          "emitted": true
+        },
+        {
+          "name": "e8ac5b2b04aaeca9bfd04619b512a114.woff",
+          "size": 11896,
+          "chunks": [],
+          "chunkNames": [],
+          "emitted": true
+        },
+        {
+          "name": "eba44403244abc110f2839c65af27185.ttf",
+          "size": 20256,
+          "chunks": [],
+          "chunkNames": [],
+          "emitted": true
+        },
+        {
+          "name": "7492c289a4e0e033d91392f0615d39f9.svg",
+          "size": 67051,
+          "chunks": [],
+          "chunkNames": [],
+          "emitted": true
+        }
+      ],
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "extraAsync": false,
+          "size": 314248,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "1887935988a22db58b88",
+          "parents": [],
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "name": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "size": 312417,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [],
+              "source": "module.exports = {};\n"
+            },
+            {
+              "id": 28,
+              "identifier": "\/foo\/node_modules\/css-loader\/lib\/css-base.js",
+              "name": ".\/~\/css-loader\/lib\/css-base.js",
+              "size": 1506,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+                  "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "type": "cjs require",
+                  "userRequest": ".\/..\/node_modules\/css-loader\/lib\/css-base.js",
+                  "loc": "1:27-82"
+                }
+              ],
+              "source": "module.exports = {};\n"
+            },
+            {
+              "id": 29,
+              "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.eot",
+              "name": ".\/~\/ui-font-icons\/font\/icon.eot",
+              "size": 81,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [
+                "80a3c6c6f90175f2356b9487b9439342.eot"
+              ],
+              "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+                  "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "type": "cjs require",
+                  "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.eot",
+                  "loc": "2:79070-79124"
+                },
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+                  "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "type": "cjs require",
+                  "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.eot",
+                  "loc": "2:79233-79287"
+                },
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+                  "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "type": "cjs require",
+                  "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.eot",
+                  "loc": "2:79306-79360"
+                }
+              ],
+              "source": "module.exports = {};\n"
+            },
+            {
+              "id": 30,
+              "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.woff",
+              "name": ".\/~\/ui-font-icons\/font\/icon.woff",
+              "size": 82,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [
+                "e8ac5b2b04aaeca9bfd04619b512a114.woff"
+              ],
+              "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+                  "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "type": "cjs require",
+                  "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.woff",
+                  "loc": "2:79408-79463"
+                }
+              ],
+              "source": "module.exports = {};\n"
+            },
+            {
+              "id": 31,
+              "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.ttf",
+              "name": ".\/~\/ui-font-icons\/font\/icon.ttf",
+              "size": 81,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [
+                "eba44403244abc110f2839c65af27185.ttf"
+              ],
+              "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+                  "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "type": "cjs require",
+                  "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.ttf",
+                  "loc": "2:79491-79545"
+                }
+              ],
+              "source": "module.exports = {};\n"
+            },
+            {
+              "id": 32,
+              "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.svg",
+              "name": ".\/~\/ui-font-icons\/font\/icon.svg",
+              "size": 81,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [
+                "7492c289a4e0e033d91392f0615d39f9.svg"
+              ],
+              "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+                  "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+                  "type": "cjs require",
+                  "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.svg",
+                  "loc": "2:79577-79631"
+                }
+              ],
+              "source": "module.exports = {};\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "moduleId": 0,
+              "module": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "loc": "",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "name": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+          "size": 312417,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 1,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/position.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/position.less",
+          "size": 148,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/position.less"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 2,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/hotel-search-results\/index.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/hotel-search-results\/index.less",
+          "size": 8254,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/hotel-search-results\/index.less"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 3,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/ui-font-icons\/icon.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/ui-font-icons\/icon.less",
+          "size": 24599,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/ui-font-icons\/icon.less"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 4,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/lesshat\/build\/lesshat.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/lesshat\/build\/lesshat.less",
+          "size": 56673,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/lesshat\/build\/lesshat.less"
+            }
+          ],
+          "source": "module.exports = {};\n"
+        },
+        {
+          "id": 5,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/core.less",
+          "size": 95,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/ui-font-icons\/icon.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/ui-font-icons\/icon.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/ui-font-icons\/icon.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/ui-font-icons\/icon.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 6,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+          "size": 713,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/core.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/core.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 7,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/mixins.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/mixins\/mixins.less",
+          "size": 87,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/core.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/core.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/mixins.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 8,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/core.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/core.less",
+          "size": 567,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/core.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/core.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/core.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/core.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 9,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/helpers.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/mixins\/helpers.less",
+          "size": 1577,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/helpers.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 10,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/variables.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/mixins\/variables.less",
+          "size": 2829,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/variables.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 11,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/layout-grid.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/mixins\/layout-grid.less",
+          "size": 2294,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/mixins\/layout-grid.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 12,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/reset.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/reset.less",
+          "size": 385,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/reset.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 13,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/grid-col.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/grid-col.less",
+          "size": 2979,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/grid-col.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 14,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/grid-size.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/grid-size.less",
+          "size": 917,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/grid-size.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 15,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/type.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/type.less",
+          "size": 3101,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/type.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 16,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/nav-toolbar\/index.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/nav-toolbar\/index.less",
+          "size": 3421,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/nav-toolbar\/index.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 17,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/links.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/links.less",
+          "size": 855,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/links.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 18,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/quotes.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/quotes.less",
+          "size": 1832,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/quotes.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 19,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/lists.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/lists.less",
+          "size": 3046,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/lists.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 20,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/containers.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/containers.less",
+          "size": 2199,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/containers.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 21,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/messaging.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/messaging.less",
+          "size": 794,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/messaging.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 22,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/visibility.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/visibility.less",
+          "size": 2529,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/visibility.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 23,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/tabs.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/tabs.less",
+          "size": 506,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/tabs.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 24,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/icons.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/icons.less",
+          "size": 580,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/icons.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 25,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/colors.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/colors.less",
+          "size": 2442,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/colors.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 26,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/buttons.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/buttons.less",
+          "size": 8066,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/buttons.less"
+            }
+          ],
+          "source": "\"{ body { background: red; } }\""
+        },
+        {
+          "id": 27,
+          "identifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/forms.less",
+          "name": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/core\/forms.less",
+          "size": 17483,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/brand\/brand.less",
+              "module": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "moduleName": ".\/~\/less-loader\/stringify.loader.js!.\/~\/core-css\/src\/style\/brand\/brand.less",
+              "type": "loader",
+              "userRequest": "-!\/foo\/node_modules\/less-loader\/stringify.loader.js!\/foo\/node_modules\/core-css\/src\/style\/core\/forms.less"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 28,
+          "identifier": "\/foo\/node_modules\/css-loader\/lib\/css-base.js",
+          "name": ".\/~\/css-loader\/lib\/css-base.js",
+          "size": 1506,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "cjs require",
+              "userRequest": ".\/..\/node_modules\/css-loader\/lib\/css-base.js",
+              "loc": "1:27-82"
+            }
+          ],
+          "source": "\"\""
+        },
+        {
+          "id": 29,
+          "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.eot",
+          "name": ".\/~\/ui-font-icons\/font\/icon.eot",
+          "size": 81,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "80a3c6c6f90175f2356b9487b9439342.eot"
+          ],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "cjs require",
+              "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.eot",
+              "loc": "2:79070-79124"
+            },
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "cjs require",
+              "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.eot",
+              "loc": "2:79233-79287"
+            },
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "cjs require",
+              "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.eot",
+              "loc": "2:79306-79360"
+            }
+          ],
+          "source": "module.exports = {};"
+        },
+        {
+          "id": 30,
+          "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.woff",
+          "name": ".\/~\/ui-font-icons\/font\/icon.woff",
+          "size": 82,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "e8ac5b2b04aaeca9bfd04619b512a114.woff"
+          ],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "cjs require",
+              "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.woff",
+              "loc": "2:79408-79463"
+            }
+          ],
+          "source": "module.exports = {};"
+        },
+        {
+          "id": 31,
+          "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.ttf",
+          "name": ".\/~\/ui-font-icons\/font\/icon.ttf",
+          "size": 81,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "eba44403244abc110f2839c65af27185.ttf"
+          ],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "cjs require",
+              "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.ttf",
+              "loc": "2:79491-79545"
+            }
+          ],
+          "source": "module.exports = {};"
+        },
+        {
+          "id": 32,
+          "identifier": "\/foo\/node_modules\/url-loader\/index.js?limit=5000!\/foo\/node_modules\/ui-font-icons\/font\/icon.svg",
+          "name": ".\/~\/ui-font-icons\/font\/icon.svg",
+          "size": 81,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "7492c289a4e0e033d91392f0615d39f9.svg"
+          ],
+          "issuer": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "\/foo\/node_modules\/css-loader\/index.js?sourceMap!\/foo\/node_modules\/less-loader\/index.js?sourceMap!\/foo\/style\/foo-view-search.less",
+              "module": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "moduleName": ".\/~\/css-loader?sourceMap!.\/~\/less-loader?sourceMap!.\/style\/foo-view-search.less",
+              "type": "cjs require",
+              "userRequest": "..\/node_modules\/ui-font-icons\/font\/icon.svg",
+              "loc": "2:79577-79631"
+            }
+          ],
+          "source": "module.exports = {};"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin"
+    }
+  ]
+}

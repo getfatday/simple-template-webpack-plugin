@@ -1,0 +1,9 @@
+default:
+  - watch
+build:
+  - test
+start:
+  - build
+test:
+  - jshint
+  - mochaTest
