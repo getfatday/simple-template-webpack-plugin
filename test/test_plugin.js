@@ -124,4 +124,14 @@ describe('With Template Plugin', function () {
       });
     });
   });
+	it('should extend the template class with contructor', function () {
+    var Foo = Plugin.extend({
+      constructor: function () {
+        this.foo = 'bar';
+      }
+    });
+
+    var foo = new Foo('[name].render.js');
+    expect(foo.foo).to.equal('bar');
+  });
 });
