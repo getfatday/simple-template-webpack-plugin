@@ -48,6 +48,16 @@ describe('With Template Plugin', function () {
       });
     });
   });
+  it('should call render in plugin context', function (done) {
+    wp(new Plugin('[name].render.js', {
+      render: function (bundle, cb) {
+        expect(this).to.be.instanceof(Plugin);
+        cb('');
+      }
+    }), function (err, stats) {
+      done();
+    });
+  });
 	it('should render templates with webpack path format', function (done) {
     wp(new Plugin('[name].render.js', {
       render: function (bundle, cb) {
