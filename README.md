@@ -83,6 +83,8 @@ Base template class
 * `options` (optional)
   * `event` the [plugin event](http://webpack.github.io/docs/plugins.html) to render on (default: `emit`)
   * `chunks` a list of chunks to render (default: render all chunks)
+  * `render` the custom render function to use with this instance
+  * `end` the custom end function to use with this instance
 
 The `TemplatePlugin` generates an output file per entry, so you must
 use `[name]`, `[id]` or `[hash]` when using multiple entries.
@@ -93,6 +95,29 @@ Creates an extended `TemplatePlugin` class.
 
 * `render` (optional) the custom render function to use with this class
 * `defaults` (options) the default options for this class.
+  * `event` the [plugin event](http://webpack.github.io/docs/plugins.html) to render on (default: `emit`)
+  * `chunks` a list of chunks to render (default: render all chunks)
+  * `render` the custom render function to use with this instance
+  * `end` the custom end function to use with this instance
+
+### `templatePlugin.render(bundle, callback)`
+
+Function used to render a bundles contents. Should pass a String to
+the callback of the rendered contents
+
+* `bundle` Bundle of the current chunk
+* `callback` Function that will receive a string of the rendered
+  bundle.
+
+### `templatePlugin.end(filename, source, callback)`
+
+Function call before the final source is added to the compilation. Should pass a [Source](https://github.com/webpack/core/blob/master/lib/Source.js) instance to
+the callback.
+
+* `filename` file name of the source to be rendered
+* `source` current instance of [Source](https://github.com/webpack/core/blob/master/lib/Source.js)
+* `callback` Function that will receive the final source to be emitted
+  by the webpack compilation
 
 ## Bundle
 

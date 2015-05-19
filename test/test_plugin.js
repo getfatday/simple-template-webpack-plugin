@@ -1,6 +1,8 @@
 var chai = require('chai');
 var expect = chai.expect;
 var Plugin = require('../lib/template');
+var ConcatSource = require("webpack/lib/ConcatSource");
+var fs = require('fs');
 var glob = require('glob');
 var path = require('path');
 var helper = require('./helper');
@@ -53,6 +55,41 @@ describe('With Template Plugin', function () {
       render: function (bundle, cb) {
         expect(this).to.be.instanceof(Plugin);
         cb('');
+      }
+    }), function (err, stats) {
+      done();
+    });
+  });
+	it('should call end', function (done) {
+    wp(new Plugin('output.render.js', {
+      render: function (bundle, cb) {
+        cb(bundle.filename);
+      },
+      end: function (filename, source, cb) {
+        expect(filename).to.equal('output.render.js');
+        expect(source).to.be['instanceof'](ConcatSource);
+        source.children = ['foo'];
+        cb(source);
+      }
+    }), function (err, stats) {
+      expect(!err).to.equal(true);
+
+      glob('./test/fixtures/dist/*.render.js', { matchBase: true }, function (err, files) {
+        expect(files.map(path.basename)).to.deep.equal([
+          'output.render.js'
+        ]);
+        fs.readFile('./test/fixtures/dist/output.render.js', function (err, data) {
+          expect(data.toString()).to.equal('foo');
+          done();
+        });
+      });
+    });
+  });
+  it('should call end in plugin context', function (done) {
+    wp(new Plugin('[name].render.js', {
+      end: function (filename, source, cb) {
+        expect(this).to.be.instanceof(Plugin);
+        cb(source);
       }
     }), function (err, stats) {
       done();
